@@ -4,6 +4,6 @@ Public portfolio site for Yiqin Huang, focused on systems and network support ro
 
 ## Highlights
 - One-page recruiter-friendly portfolio
-- Sanitized home lab architecture overview
+- Sanitized Enterprise Infrastructure Capstone overview
 - Direct links to resume, LinkedIn, and flagship GitHub project
 - Static site suitable for GitHub Pages
