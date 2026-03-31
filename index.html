@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Yiqin Huang portfolio highlighting an Enterprise Infrastructure Capstone spanning simulated private-cloud and public-cloud environments, with monitoring, backup, and systems/network support work.">
+  <meta name="description" content="Yiqin Huang portfolio highlighting the Site 1 deliverables from an Enterprise Infrastructure Capstone, including Proxmox, OPNsense, Veeam, monitoring, and support documentation.">
   <title>Yiqin Huang | Systems & Network Support Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
     <a class="brand" href="#top">YH</a>
     <nav class="site-nav">
       <a href="#projects">Projects</a>
-      <a href="#diagram">Diagram</a>
+      <a href="#evidence">Evidence</a>
       <a href="#stack">Stack</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -25,14 +25,15 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">Ottawa, ON | Expected Graduation: April 2026</p>
-        <h1>Documenting and defending a real enterprise infrastructure capstone.</h1>
+        <h1>Showing the strongest Site 1 evidence from my enterprise infrastructure capstone.</h1>
         <p class="lede">
           I am a Computer Systems Technician - Networking student focused on junior systems, network, and infrastructure support roles.
-          This portfolio is centered on my Enterprise Infrastructure Capstone. My primary hands-on contribution focused on the simulated private-cloud side, while the broader project
-          connected a simulated private-cloud primary environment and simulated public-cloud secondary environment through MSP operations, shared storage, monitoring, backup, and cross-site protection.
+          This portfolio focuses on Site 1, the simulated private-cloud primary environment in my Enterprise Infrastructure Capstone.
+          My hands-on work centered on shared compute, tenant-separated services, backup workflows, monitoring, and support-oriented documentation.
+          The simulated public-cloud side appears only where it explains MSP access, offsite copy, and recovery flow.
         </p>
         <div class="hero-actions">
-          <a class="button primary" href="#projects">See Capstone Highlights</a>
+          <a class="button primary" href="#projects">See Site 1 Highlights</a>
           <a class="button secondary" href="assets/Yiqin_Huang_Resume_One_Page.docx">Download Resume</a>
         </div>
         <ul class="quick-links">
@@ -43,12 +44,12 @@
       </div>
 
       <aside class="hero-card">
-        <p class="card-label">Scope Clarification</p>
+        <p class="card-label">Site 1 Focus</p>
         <ul>
-          <li>Primary hands-on contribution: simulated private-cloud side</li>
-          <li>Integrated capstone context: simulated private-cloud + public-cloud environments</li>
-          <li>Simulated public-cloud side explains MSP, VPN, and recovery dependencies</li>
-          <li>Public-safe documentation stays honest about scope</li>
+          <li>Simulated private-cloud primary environment</li>
+          <li>Shared Proxmox compute, segmented services, and bounded admin paths</li>
+          <li>Monitoring and backup designed as part of platform operations</li>
+          <li>Integrated public-cloud context only where it explains protection and recovery</li>
         </ul>
       </aside>
     </section>
@@ -67,59 +68,59 @@
         <span class="metric-label">Workloads documented across shared infrastructure</span>
       </article>
       <article>
-        <span class="metric-value">7</span>
-        <span class="metric-label">Offsite backup jobs copied over VPN</span>
+        <span class="metric-value">10</span>
+        <span class="metric-label">Protected systems covered by backup scope</span>
       </article>
     </section>
 
     <section class="section" id="projects">
       <div class="section-heading">
         <p class="eyebrow">Featured Work</p>
-        <h2>One capstone project that shows how I design, document, and support infrastructure.</h2>
+        <h2>One Site 1 project that shows how I build, document, and support infrastructure.</h2>
       </div>
       <div class="project-grid">
         <article class="project-card featured">
           <p class="project-tag">Capstone Infrastructure Project</p>
-          <h3>Simulated private-cloud core with a public-cloud extension</h3>
+          <h3>Simulated private-cloud primary environment</h3>
           <p>
-            Collaborated with five teammates to design and document an environment spanning Company 1, Company 2, MSP operations,
-            shared SAN storage, and cross-site protection. My primary implementation focus was the simulated private-cloud side of the project, with the simulated public-cloud side included here as integrated architecture context.
+            Collaborated with five teammates to design and document an enterprise environment spanning Company 1, Company 2, MSP operations,
+            shared storage, and cross-site protection. My primary implementation focus was Site 1, the simulated private-cloud primary environment.
           </p>
           <ul>
-            <li>Primary hands-on delivery: simulated private-cloud tenant, storage, DMZ, and management paths</li>
-            <li>Integrated context: simulated public-cloud MSP access and cross-site protection model</li>
-            <li>Backup copy workflow routed through site-to-site OpenVPN</li>
+            <li>Primary hands-on delivery: tenant, storage, DMZ, and management paths</li>
+            <li>Shared compute hosted on Proxmox VE with segmented VLAN design</li>
+            <li>Backup and offsite copy workflow routed through site-to-site OpenVPN</li>
             <li>109-page integrated handover for support transition</li>
           </ul>
         </article>
 
         <article class="project-card">
           <p class="project-tag">Operations and Validation</p>
-          <h3>How the capstone stays supportable</h3>
+          <h3>How Site 1 stays supportable</h3>
           <p>
-            The public version of the project focuses on the operational logic behind the build: approved MSP entry paths, backup continuity,
-            validation cadence, and fast triage. The simulated public-cloud side is included where it helps explain inter-environment protection and recovery dependencies.
+            The public version of the project focuses on the operational logic behind the build: approved administrative paths, backup continuity,
+            validation cadence, and fast triage. Integrated public-cloud context stays in the background unless it helps explain recovery dependencies.
           </p>
           <ul>
             <li>Daily, weekly, monthly, and post-change checks</li>
             <li>Failure-domain and dependency thinking</li>
-            <li>Bounded MSP and administrative access model</li>
-            <li>Backup, repository, and offsite reachability validation</li>
+            <li>Bounded administrative and MSP access model</li>
+            <li>Backup, repository, and offsite protection validation</li>
           </ul>
         </article>
 
         <article class="project-card">
           <p class="project-tag">Capstone Repository</p>
-          <h3>Readable GitHub proof, not just screenshots</h3>
+          <h3>Readable GitHub proof, not just a long handover</h3>
           <p>
             The linked GitHub project distills a larger integrated handover into sanitized architecture notes, an operations runbook,
-            a fast-triage guide, and a PowerShell health-report script so reviewers can see both the technical stack and the way I document support work.
+            a fast-triage guide, a Site 1 evidence gallery, and supporting PowerShell artifacts so reviewers can see both the stack and the way I document support work.
           </p>
           <ul>
-            <li>Sanitized service-boundary and architecture notes</li>
+            <li>Site 1 architecture and evidence gallery</li>
             <li>Daily, weekly, and post-change validation guidance</li>
             <li>Fast triage guide with likely fault domains</li>
-            <li>PowerShell endpoint and backup health reporting</li>
+            <li>PowerShell-backed validation and archive helpers</li>
           </ul>
         </article>
       </div>
@@ -127,29 +128,74 @@
 
     <section class="section split" id="diagram">
       <div class="section-heading">
-        <p class="eyebrow">Sanitized View</p>
-        <h2>High-level capstone architecture map</h2>
+        <p class="eyebrow">Architecture</p>
+        <h2>High-level Site 1 architecture map</h2>
       </div>
       <div class="diagram-shell">
-        <img src="assets/capstone-overview.svg" alt="Sanitized Enterprise Infrastructure Capstone diagram showing management entry, firewall, shared compute, monitoring, storage, and backup services.">
+        <img src="assets/site1-gallery/site1-architecture-overview.svg" alt="Sanitized Site 1 diagram showing management entry, firewall, shared compute, monitoring, storage, and backup services.">
       </div>
       <div class="diagram-notes">
         <p>
           I keep external-facing demos high level and sanitized. The goal is to show architecture, validation habits, and operational thinking
-          without exposing secrets, internal hostnames, or real administrative data. Public artifacts emphasize the simulated private-cloud side as my main hands-on scope while still showing where the simulated public-cloud side matters to the integrated design.
+          without exposing secrets, internal hostnames, or real administrative data. Public artifacts emphasize Site 1 as my main hands-on scope while still showing where offsite protection matters to the integrated design.
         </p>
         <ul>
-          <li>Public-facing diagrams use sanitized service names</li>
+          <li>Public-facing diagrams use sanitized service names and simplified flows</li>
           <li>Internal IPs, credentials, and VPN details stay private</li>
           <li>Evidence focuses on stack, outcomes, and supportability</li>
         </ul>
       </div>
     </section>
 
+    <section class="section" id="evidence">
+      <div class="section-heading">
+        <p class="eyebrow">Evidence</p>
+        <h2>Four screenshots that explain Site 1 faster than a long document.</h2>
+      </div>
+      <div class="evidence-grid">
+        <article class="evidence-card">
+          <img src="assets/site1-gallery/site1-proxmox-summary.png" alt="Proxmox VE summary for the Site 1 host">
+          <div class="evidence-copy">
+            <h3>Shared compute on Proxmox VE</h3>
+            <p>Capacity and utilization snapshot from the virtualization layer hosting the primary environment.</p>
+          </div>
+        </article>
+        <article class="evidence-card">
+          <img src="assets/site1-gallery/site1-grafana-dashboard.png" alt="Grafana dashboard for Site 1 infrastructure">
+          <div class="evidence-copy">
+            <h3>Operational visibility</h3>
+            <p>Grafana view used to document host health and workload monitoring across the Site 1 platform.</p>
+          </div>
+        </article>
+        <article class="evidence-card">
+          <img src="assets/site1-gallery/site1-veeam-overview.png" alt="Veeam backup job overview for Site 1">
+          <div class="evidence-copy">
+            <h3>Backup and recovery readiness</h3>
+            <p>Veeam job status used to show protected workloads and recovery-oriented checks in the primary environment.</p>
+          </div>
+        </article>
+        <article class="evidence-card emphasis">
+          <div class="evidence-copy">
+            <p class="project-tag">Why not upload the whole handover?</p>
+            <h3>Faster for HR, cleaner for public review</h3>
+            <p>
+              The original integrated handover is useful for delivery, but it is too long for a recruiter-first view.
+              This page and the GitHub repo pull out the highest-signal parts: architecture, metrics, evidence, and support logic.
+            </p>
+            <ul>
+              <li>Shorter review path for recruiters</li>
+              <li>Still credible for technical interview follow-up</li>
+              <li>Safer than publishing raw internal screenshots in bulk</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section class="section" id="stack">
       <div class="section-heading">
         <p class="eyebrow">Core Stack</p>
-        <h2>Tools I have been using most recently</h2>
+        <h2>Tools I used most heavily on Site 1</h2>
       </div>
       <div class="stack-grid">
         <article>

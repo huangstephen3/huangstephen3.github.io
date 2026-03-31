@@ -100,6 +100,7 @@ main {
 .project-card,
 .diagram-shell,
 .diagram-notes,
+.evidence-card,
 .stack-grid article,
 .contact-card,
 .metrics article {
@@ -153,6 +154,7 @@ main {
 .quick-links,
 .metrics,
 .project-grid,
+.evidence-grid,
 .stack-grid,
 .contact-grid {
   display: grid;
@@ -280,9 +282,53 @@ main {
 }
 
 .project-card p,
+.evidence-copy p,
 .diagram-notes p,
 .stack-grid p {
   color: var(--muted);
+}
+
+.evidence-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.evidence-card {
+  overflow: hidden;
+  border-radius: 1.6rem;
+}
+
+.evidence-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-bottom: 1px solid var(--line);
+}
+
+.evidence-copy {
+  padding: 1.35rem;
+}
+
+.evidence-copy h3 {
+  margin: 0.2rem 0 0.45rem;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.evidence-copy ul {
+  margin: 0.9rem 0 0;
+  padding-left: 1.1rem;
+  color: var(--muted);
+}
+
+.evidence-copy li {
+  margin-bottom: 0.55rem;
+}
+
+.evidence-card.emphasis {
+  background:
+    linear-gradient(160deg, rgba(26, 115, 232, 0.14), rgba(255, 255, 255, 0.86) 50%),
+    rgba(255, 255, 255, 0.88);
+  display: flex;
 }
 
 .split {
@@ -330,6 +376,7 @@ main {
   .hero,
   .split,
   .project-grid,
+  .evidence-grid,
   .contact-grid,
   .metrics,
   .stack-grid {
