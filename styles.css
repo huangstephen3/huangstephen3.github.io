@@ -331,6 +331,25 @@ main {
   display: flex;
 }
 
+.evidence-note {
+  margin-top: 1rem;
+  padding: 1.4rem 1.5rem;
+  border-radius: 1.5rem;
+  background:
+    linear-gradient(160deg, rgba(26, 115, 232, 0.08), rgba(255, 255, 255, 0.9) 52%),
+    rgba(255, 255, 255, 0.92);
+}
+
+.evidence-note h3 {
+  margin: 0.2rem 0 0.45rem;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.evidence-note p:last-child {
+  margin-bottom: 0;
+  color: var(--muted);
+}
+
 .split {
   display: grid;
   grid-template-columns: 1fr 0.9fr;
