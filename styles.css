@@ -350,26 +350,20 @@ main {
   color: var(--muted);
 }
 
-.split {
+.architecture-section .section-heading {
+  max-width: 32rem;
+  margin-bottom: 1.1rem;
+}
+
+.architecture-section .section-heading h2 {
+  max-width: 10ch;
+}
+
+.diagram-grid {
   display: grid;
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
   gap: 1.25rem;
   align-items: start;
-}
-
-.split-copy {
-  display: grid;
-  gap: 1rem;
-  align-content: start;
-}
-
-.split-copy .section-heading {
-  margin-bottom: 0;
-  max-width: 30rem;
-}
-
-.split-copy .section-heading h2 {
-  max-width: 9ch;
 }
 
 .diagram-shell,
