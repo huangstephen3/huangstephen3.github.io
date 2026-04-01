@@ -126,23 +126,25 @@
     </section>
 
     <section class="section split" id="diagram">
-      <div class="section-heading">
-        <p class="eyebrow">Architecture</p>
-        <h2>High-level primary environment architecture</h2>
+      <div class="split-copy">
+        <div class="section-heading">
+          <p class="eyebrow">Architecture</p>
+          <h2>Primary environment architecture</h2>
+        </div>
+        <div class="diagram-notes">
+          <p>
+            The public diagram shows management flow, segmentation, shared compute, monitoring, storage, and backup design in a sanitized format.
+            Sensitive hostnames, credentials, and internal implementation details are intentionally excluded from the public view.
+          </p>
+          <ul>
+            <li>Service names and traffic flows are simplified for public review</li>
+            <li>Internal IPs, credentials, and VPN specifics remain private</li>
+            <li>Focus stays on architecture, supportability, and recovery design</li>
+          </ul>
+        </div>
       </div>
       <div class="diagram-shell">
         <img src="assets/site1-gallery/site1-architecture-overview.svg" alt="Sanitized diagram showing the primary environment management path, firewall, shared compute, monitoring, storage, and backup services.">
-      </div>
-      <div class="diagram-notes">
-        <p>
-          The public diagram shows management flow, segmentation, shared compute, monitoring, storage, and backup design in a sanitized format.
-          Sensitive hostnames, credentials, and internal implementation details are intentionally excluded from the public view.
-        </p>
-        <ul>
-          <li>Service names and traffic flows are simplified for public review</li>
-          <li>Internal IPs, credentials, and VPN specifics remain private</li>
-          <li>Focus stays on architecture, supportability, and recovery design</li>
-        </ul>
       </div>
     </section>
 

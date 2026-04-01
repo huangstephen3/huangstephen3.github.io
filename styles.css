@@ -352,9 +352,24 @@ main {
 
 .split {
   display: grid;
-  grid-template-columns: 1fr 0.9fr;
-  gap: 1rem;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+  gap: 1.25rem;
   align-items: start;
+}
+
+.split-copy {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+}
+
+.split-copy .section-heading {
+  margin-bottom: 0;
+  max-width: 30rem;
+}
+
+.split-copy .section-heading h2 {
+  max-width: 9ch;
 }
 
 .diagram-shell,
@@ -368,6 +383,11 @@ main {
 .diagram-shell {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(240, 247, 255, 0.92));
+}
+
+.diagram-shell img {
+  width: 100%;
+  height: auto;
 }
 
 .stack-grid {
